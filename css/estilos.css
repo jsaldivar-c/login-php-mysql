@@ -1,0 +1,147 @@
+* {
+	margin            : 0;
+	padding           : 0;
+	box-sizing        : border-box;
+	-moz-box-sizing   : border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	color      :#fff;
+	background :#1B1D35;
+	font-size  : 16px;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	color:#B8711B;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	width    : 90%;
+	margin   : auto;
+	max-width: 500px;
+}
+
+.titulo {
+	color      : #B8711B;
+	margin     : 60px 0 30px 0;
+	text-align : center;
+	font-weight: 300;
+}
+
+.border {
+	color        :none;
+	border       :none;
+	background   : none;
+	border-top   : 10px solid #B8711B;
+	margin-bottom: 5px; 
+}
+
+.formulario {
+    padding      : 30px;
+	background   : #2C2C47;
+	margin-bottom: 30px;
+}
+
+.formulario .form-group {
+	width        : 100%;
+	margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+	border        : none;
+	padding       : 15px;
+	font-size     : 18px;
+	line-height   : 18px;
+	font-family   : 'Raleway', sans-serif;
+	vertical-align: top;
+}
+
+.formulario .icono {
+	color         :#6b6b6b;
+	padding       : 15px;
+	display       : inline-block;
+	width         : 48px;
+	background    : #c8c8c8;
+	font-size     : 18px;
+	text-align    : center;
+	max-height    : 48px;
+	line-height   : 18px;
+	vertical-align: top;
+}
+
+.formulario .icono.izquierda {
+	margin-right         : 4px;
+	border-radius        : 3px 0 0 3px;
+	-o-border-radius     : 3px 0 0 3px;
+	-ms-border-radius    : 3px 0 0 3px;
+	-moz-border-radius   : 3px 0 0 3px;
+	-webkit-border-radius: 3px 0 0 3px;
+}
+
+.formulario .usuario,
+.formulario .password {
+	width                : calc(100% - 52px);
+	border-radius        : 0 3px 3px 0;
+	-o-border-radius     : 0 3px 3px 0;
+	-ms-border-radius    : 0 3px 3px 0;
+	-moz-border-radius   : 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+}
+
+.formulario .password_btn {
+	width: calc(100% - 105px);
+}
+
+.formulario .error ul {
+	padding: 0 15px;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;	
+}
+
+.formulario .submit-btn {
+	color        :#fff;
+	padding      : 15px;
+	text-align   : center;
+	width        : 48px;
+	max-height   : 48px;
+	font-size    : 18px;
+	line-height  : 18px;
+	background   : #679863;
+	display      : inline-block;
+	background   : #769766;
+	cursor       : pointer;
+	border-radius: 0 3px 3px 0;
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+}
+
+.texto-registrate {
+	text-align: center;
+}
+
+.texto-registrate a {
+	display: block;
+	font-size: 18px;
+}
+
+.contenido article {
+	padding   : 30px;
+	background: #fff;
+}
+
+.contenido article p{
+	color        :#000;
+	margin-bottom: 10px;
+}
