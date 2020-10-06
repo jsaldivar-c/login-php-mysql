@@ -4,7 +4,7 @@
 
 ![Login MySQL - PHP](https://res.cloudinary.com/dlbfrbl8h/image/upload/v1602022079/login-php-mysql-encrypt-2_lzdh89.png "Login MySQL - PHP")
 
-Fragmento de código para realizar una paginación de articulos basica con MySQL y PHP.
+Fragmento de código para realizar un login con encriptación con MySQL y PHP.
 
 ### **Tecnologías | Lenguajes de Programación | Herramientas | Frameworks | Librerias**
 
